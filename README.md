@@ -4,12 +4,12 @@
   <h1 class="projectName">Watch History Exporter for Amazon Prime Video</h1>
   <p class="projectBadges info">
     <img src="https://johng.io/badges/category/Script.svg" alt="Project category" title="Project category">
-    <img src="https://img.shields.io/github/languages/top/twocaretcat/watch-history-exporter-for-amazon-prime-video.svg" alt="Language" title="Language">
-    <img src="https://img.shields.io/github/repo-size/twocaretcat/watch-history-exporter-for-amazon-prime-video.svg" alt="Repository size" title="Repository size">
-    <a href="LICENSE"><img src="https://img.shields.io/github/license/twocaretcat/watch-history-exporter-for-amazon-prime-video.svg" alt="Project license" title="Project license"/></a>
+    <img src="https://img.shields.io/github/languages/top/caret-collective/watch-history-exporter-for-amazon-prime-video.svg" alt="Language" title="Language">
+    <img src="https://img.shields.io/github/repo-size/caret-collective/watch-history-exporter-for-amazon-prime-video.svg" alt="Repository size" title="Repository size">
+    <a href="LICENSE"><img src="https://img.shields.io/github/license/caret-collective/watch-history-exporter-for-amazon-prime-video.svg" alt="Project license" title="Project license"/></a>
   </p>
   <p class="projectBadges status">
-    <a href="https://github.com/twocaretcat/watch-history-exporter-for-amazon-prime-video/releases/latest"><img src="https://img.shields.io/github/v/release/twocaretcat/watch-history-exporter-for-amazon-prime-video.svg" alt="Latest release" title="Latest release"/></a>
+    <a href="https://github.com/caret-collective/watch-history-exporter-for-amazon-prime-video/releases/latest"><img src="https://img.shields.io/github/v/release/caret-collective/watch-history-exporter-for-amazon-prime-video.svg" alt="Latest release" title="Latest release"/></a>
   </p>
   <p class="projectDesc">
     A script to export your Amazon Prime Video watch history as a JSON or CSV file.
@@ -184,7 +184,7 @@ Alternatively, you can use a text editor or spreadsheet program to rename the co
 
 ## 🛟 Support
 
-Need help? See the [support resources](https://github.com/twocaretcat/.github/blob/main/docs/SUPPORT.md) for information
+Need help? See the [support resources](https://github.com/caret-collective/.github/blob/main/docs/SUPPORT.md) for information
 on how to:
 
 - request features
