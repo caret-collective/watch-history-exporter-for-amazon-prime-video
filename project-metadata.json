@@ -1,7 +1,20 @@
 {
 	"$schema": "https://johng.io/schema/project-metadata.json",
 	"name": "Watch History Exporter for Amazon Prime Video",
+	"background": "Wrote a browser console script that exports watch history from Amazon Prime Video to CSV or JSON for personal archiving and downstream analysis. The script runs directly on the Prime Video watch history page, intercepts embedded and lazy-loaded JSON data, normalizes movie and episode records, escapes spreadsheet-safe CSV output, and downloads the result without requiring installation or server-side data handling. Maintained as a lightweight Deno-formatted JavaScript utility with detailed usage documentation designed to support non-technical users.",
 	"logoPath": "screenshot.png",
+	"technologies": [
+		"Deno"
+	],
+	"tools": [
+		"VS Code",
+		"Git",
+		"GitHub"
+	],
+	"topics": [
+		"OSS",
+		"Technical Documentation"
+	],
 	"category": "Script",
 	"schema": {
 		"type": "Software",
