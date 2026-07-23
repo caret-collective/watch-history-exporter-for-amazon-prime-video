@@ -89,17 +89,20 @@ script or resulting file if you wish._
 ## 🕹️ Usage
 
 > [!CAUTION]
-> For security reasons, I do not recommend running scripts from the internet unless you understand what they are doing. If you are not a developer, I recommend reading the comments in the code and/or asking a LLM like [ChatGPT] or [Claude]
-> to explain it to you.
+> For security reasons, I do not recommend running scripts from the internet unless you understand what they are doing.
+> If you are not a developer, I recommend reading the comments in the code and/or asking a LLM like [ChatGPT] or
+> [Claude] to explain it to you.
 >
-> I'd recommend reading [Amazon's TOS](https://www.amazon.com/gp/help/customer/display.html?nodeId=GM687PUA9S52N732) to make sure you are not violating any rules by using this script.
+> I'd recommend reading [Amazon's TOS](https://www.amazon.com/gp/help/customer/display.html?nodeId=GM687PUA9S52N732) to
+> make sure you are not violating any rules by using this script.
 >
-> If you don't mind waiting and/or getting your data in a different format, you can now also [request your watch history from Amazon themselves](https://www.amazon.com/hz/privacy-central/data-requests/preview.html#:~:text=Submit%20Request-,Prime%20Video).
+> If you don't mind waiting and/or getting your data in a different format, you can now also
+> [request your watch history from Amazon themselves](https://www.amazon.com/hz/privacy-central/data-requests/preview.html#:~:text=Submit%20Request-,Prime%20Video).
 
 > [!IMPORTANT]
 > Don't scroll down the page before you run the script. Scrolling will cause new items to be loaded before the script is
-> able to see them, meaning there will be missing movies/shows in the output. I recommend reloading the page first and then
-> running the script.
+> able to see them, meaning there will be missing movies/shows in the output. I recommend reloading the page first and
+> then running the script.
 
 **Instructions:**
 
@@ -138,7 +141,8 @@ variable at the top of the script from `true` to `false` to automatically contin
 ### Output Format
 
 > [!NOTE]
-> CSV files will have human-readable column names like `Date Watched`, while JSON files will have machine-readable property names like `dateWatched`.
+> CSV files will have human-readable column names like `Date Watched`, while JSON files will have machine-readable
+> property names like `dateWatched`.
 
 By default, the output is saved as a CSV file. If you prefer JSON, change the `OPTION.outputJson` variable at the top of
 the script from `false` to `true`.
@@ -184,8 +188,8 @@ Alternatively, you can use a text editor or spreadsheet program to rename the co
 
 ## 🛟 Support
 
-Need help? See the [support resources](https://github.com/caret-collective/.github/blob/main/docs/SUPPORT.md) for information
-on how to:
+Need help? See the [support resources](https://github.com/caret-collective/.github/blob/main/docs/SUPPORT.md) for
+information on how to:
 
 - request features
 - report bugs
@@ -225,8 +229,8 @@ cut off, it won't work.
 
 If you have a default download folder set, check if the file is there.
 
-Otherwise, make sure "Pop-ups and redirects" and "Automatic downloads" are enabled for [www.primevideo.com][Amazon Prime Video] in your
-browser settings.
+Otherwise, make sure "Pop-ups and redirects" and "Automatic downloads" are enabled for
+[www.primevideo.com][Amazon Prime Video] in your browser settings.
 
 </details>
 
@@ -241,7 +245,8 @@ different method to export your watch history than the current version, so it ma
 ### How it Works
 
 > [!NOTE]
-> Previous versions of this script parsed the DOM directly, but the data available in the DOM is not as complete as the data from responses. Additionally, a lot of extra code had to be included to handle locale-specific dates and other
+> Previous versions of this script parsed the DOM directly, but the data available in the DOM is not as complete as the
+> data from responses. Additionally, a lot of extra code had to be included to handle locale-specific dates and other
 > strings for multi-language support, so we now use this method.
 
 Pasting the script into your your browser's console lets it interact with the page and extract watch history like so:
