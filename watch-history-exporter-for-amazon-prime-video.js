@@ -54,8 +54,9 @@
 
 	/** Print an informational message to the console */
 	const log = (() => {
+		const prefix = '[Watch History Exporter for Amazon Prime]';
 		const prefixArray = [
-			`%c[Watch History Exporter for Amazon Prime]`,
+			`%c${prefix}`,
 			'color:#1399FF;background:#00050d;font-weight:bold;',
 		];
 
