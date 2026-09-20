@@ -13,6 +13,6 @@ permissions:
   issues: write
 jobs:
   automate:
-    uses: caret-collective/issue-automation/.github/workflows/issue-automations.yml@main
+    uses: caret-collective/issue-automation/.github/workflows/issue-automations.yml@b8588ba5d36d633914980336d6cbdb0f900e636b
     secrets:
       project_token: ${{ secrets.ORG_PROJECT_TOKEN }}
